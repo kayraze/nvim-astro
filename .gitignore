@@ -1,0 +1,41 @@
+
+# Neovim swap/backup/undo files
+*.swp
+*.swo
+*.swm
+*.un~
+*.bak
+*.tmp
+*~
+
+# Session files
+Session.vim
+Sessionx.vim
+
+# Neovim state
+.netrwhist
+shada/ 
+shada/*
+*.shada
+
+# AstroNvim-specific cache & data
+lazy-lock.json
+packer_compiled.lua
+lua/custom/lazy-lock.json
+
+# Plugin manager cache
+site/pack
+site/autoload/plug.vim
+site/autoload/plugged/
+
+# Logs
+log/
+*.log
+
+# System/OS stuff
+.DS_Store
+Thumbs.db
+
+# Python virtualenv (if used for plugins like pynvim, lsp, etc.)
+.venv/
+venv/
