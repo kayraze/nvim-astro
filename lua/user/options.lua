@@ -10,6 +10,9 @@ local function default_setup()
 
   opt.conceallevel = 2
   opt.concealcursor = "nc"
+
+  opt.wrap = true
+  opt.breakindent = true
   --local ok, _ = pcall(vim.cmd, "colorscheme catppuccin")
   --if not ok then
   --  vim.notify("colorscheme not found!")
