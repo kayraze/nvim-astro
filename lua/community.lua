@@ -29,6 +29,10 @@ return {
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.xml" },
+  { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.eslint" },
 
   -- Code Runners | Compilers
   { import = "astrocommunity.code-runner.overseer-nvim" },
