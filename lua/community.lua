@@ -33,6 +33,8 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.eslint" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.tailwindcss" },
 
   -- Code Runners | Compilers
   { import = "astrocommunity.code-runner.overseer-nvim" },
